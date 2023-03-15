@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    /* height: 580px; */
+    /* background-color: lightcoral; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 60px;
+}
+
+.main .main1 {
+    height: 500px;
+    width: 20%;
+    margin: 30px 3px 0 30px;
+    /* margin-right: 60px; */
+}
+
+.main .main1 .con1 {
+    height: 405px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px gray;
+    position: relative;
+    margin-top: 30px;
+}
+
+.main .con1 .img {
+    height: 250px;
+    width: 100%;
+    /* background-color: lightseagreen; */
+}
+
+.main .con1 .img img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.main .con1 .per {
+    height: 30px;
+    width: 20%;
+    background-color: red;
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.main .con1 .like {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(199, 197, 197);
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+
+.main .con1 .like:hover {
+    background-color: black;
+}
+
+.main .con1 .text {
+    height: 150px;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 14px 10px 0 10px;
+}
+
+.main .con1 .text .na {
+    display: flex;
+    justify-content: space-between;
+    line-height: 18px;
+}
+
+.main .con1 .text .na p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /* font-weight: 500; */
+    font-weight: bold;
+}
+
+.main .con1 .text .na .pa {
+    color: red;
+}
+
+.main .con1 .text .na .pb {
+    font-size: 11px;
+    color: gray;
+}
+
+.main .con1 .text .na .k {
+    margin-left: 190px;
+}
+
+.main .con1 .text .ch {
+    height: 30px;
+    margin-top: 20px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.main .con1 .text .ch .cho {
+    height: inherit;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.main .con1 .text .ch .cho .cir {
+    height: 25px;
+    width: 25px;
+    /* background-color: blueviolet; */
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .con1 .text .ch .cho .ca {
+    margin-left: 10px;
+    border: 2px solid red;
+}
+
+.main .con1 .text .ch .cho .cb {
+    margin-left: 10px;
+    border: 2px solid aqua;
+}
+
+.main .con1 .text .ch .a {
+    justify-content: right;
+}
+
+.main .con1 .text .ch .cho .cia {
+    margin-right: 10px;
+}
+
+.main .con1 .text .ch .cho .cc {
+    margin-left: 10px;
+    border: 2px solid blue;
+}
+
+.main .con1 .text .ch .cho .cd {
+    margin-left: 10px;
+    border: 2px solid yellow;
+}
+
+.main .con1 .text .ch .cho .cir:hover {
+    background-color: rgb(240, 237, 237);
+}
+
+.main .con1 .text .ch .cho .ca:hover {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.main .con1 .text .ch .cho .cb:hover {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.main .con1 .text .ch .a .cir:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: #fff;
+}
+
+.main .con1 .text .ch .cho .cd:hover {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.main .con1 .text .st {
+    /* height: 30px; */
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .con1 .text .st .sy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.main .con1 .text .st .bu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(125, 14, 230);
+}
+
+.main .con1 .text .sy span .fa-star:hover {
+    color: yellow;
+}
+
+.main .con1 .con2 {
+    height: 70px;
+    /* width: ; */
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 0 20px gray;
+}
+
+.main .con1 .con2 .ha {
+    height: inherit;
+    width: 60%;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+.main .con1 .con2 .ha .g {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+.main .con1 .con2 .ha .ga {
+    color: red;
+}
+
+.main .con1 .con2 .of {
+    height: inherit;
+    width: 40%;
+    background-color: rgb(130, 41, 133);
+    text-align: center;
+    line-height: 25px;
+    padding-top: 15px;
+    border-radius: 0 15px 15px 0;
+}
+
+.main .con1 .con2 .of h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 15px; */
+    color: #fff;
+}
